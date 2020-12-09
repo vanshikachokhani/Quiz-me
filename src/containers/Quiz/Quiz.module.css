@@ -1,0 +1,25 @@
+.Quiz {
+  margin: 1rem auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Quiz > button {
+  margin-top: 1rem;
+  outline: 0;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5e95ef;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .Quiz {
+    margin: 0;
+  }
+}

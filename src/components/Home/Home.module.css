@@ -1,0 +1,75 @@
+.Home {
+  width: 100%;
+  height: 100%;
+}
+
+.Home h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  color: rgba(65, 65, 65, 0.89);
+}
+
+.Home p {
+  font-size: 1rem;
+}
+
+.Home img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Home button {
+  margin-top: 20px;
+  outline: 0;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  transition: all ease 0.4s;
+}
+
+.Home button:focus {
+  outline: none;
+}
+
+.Home button:hover {
+  transform: scale(1.1);
+  transition: all ease 0.2s;
+}
+
+.Quick {
+  margin-right: 2rem;
+  background-color: #5e95ef;
+  color: white;
+}
+
+.Custom {
+  margin-left: 2rem;
+}
+
+.Custom:hover {
+  background-color: #5e95ef;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .Home button {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .Home img {
+    display: none;
+  }
+
+  .Home .Quick {
+    background-color: #5e95ef;
+    color: white;
+    margin-top: 100px;
+  }
+
+  .Custom {
+    margin-left: 0;
+  }
+}

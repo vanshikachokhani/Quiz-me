@@ -1,0 +1,13 @@
+.Layout {
+  background-color: rgb(255, 254, 254);
+  width: 80%;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .Layout {
+    padding: 5px;
+  }
+}

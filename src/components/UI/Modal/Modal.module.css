@@ -1,0 +1,64 @@
+.Modal {
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: auto;
+}
+
+.Close {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  background-color: #5e95ef;
+  color: white;
+}
+
+.Close:focus {
+  outline: none;
+}
+
+.Modal .Start {
+  margin-top: 20px;
+  outline: 0;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  background-color: #5e95ef;
+  color: white;
+}
+
+.Modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  justify-content: space-around;
+}
+
+.Modal button:hover {
+  transform: scale(1.1);
+}
+
+.Modal select {
+  width: 160px;
+  padding: 5px;
+}
+
+.Modal input {
+  width: 150px;
+  padding: 5px;
+}
+
+.Modal select:focus,
+.Modal input:focus {
+  outline: none;
+}
