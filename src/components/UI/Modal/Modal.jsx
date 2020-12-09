@@ -5,6 +5,7 @@ export default function Modal(props) {
   const form = (
     <form onSubmit={props.submit}>
       <div>
+        
         <label htmlFor="category">Category: </label>
         <select
           style={{ display: 'block' }}
@@ -16,6 +17,7 @@ export default function Modal(props) {
           <option value="18">Computers</option>
           <option value="19">Maths</option>
           <option value="17">Science</option>
+          <option value="11">Entertainment</option>
         </select>
       </div>
       <div>
@@ -54,7 +56,9 @@ export default function Modal(props) {
       <button onClick={props.click} className={classes.Close}>
         X
       </button>
+      <div>
       {props.result ? <h1>Your result: {props.result}</h1> : form}
+      </div>
     </div>
   );
 }
