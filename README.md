@@ -11,4 +11,3 @@ User can select the category of quiz and difficulty according to the user's requ
     >npm start
     >Runs the app in the development mode.\
     >Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
->>>>>>> refs/remotes/origin/main
