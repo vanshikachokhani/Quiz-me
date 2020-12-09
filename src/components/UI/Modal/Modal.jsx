@@ -5,7 +5,12 @@ export default function Modal(props) {
   const form = (
     <form onSubmit={props.submit}>
       <div>
-        
+        <label htmlFor="name">Name:</label>
+        <input style={{ display: 'block' }}type="text" /><br></br>
+        <label htmlFor="age">Age:</label>
+        <input style={{ display: 'block' }}type="number" /><br></br>
+      </div>
+      <div>
         <label htmlFor="category">Category: </label>
         <select
           style={{ display: 'block' }}
@@ -20,6 +25,7 @@ export default function Modal(props) {
           <option value="11">Entertainment</option>
         </select>
       </div>
+      <br></br>
       <div>
         <label htmlFor="difficulty">Difficulty: </label>
         <select
@@ -34,6 +40,7 @@ export default function Modal(props) {
           <option value="hard">Hard</option>
         </select>
       </div>
+      <br></br>
       <div>
         <label htmlFor="NumberOfQuestions">Number of Questions: </label>
         <input
@@ -48,6 +55,7 @@ export default function Modal(props) {
           onKeyDown={(e) => e.preventDefault()}
         />
       </div>
+      <br></br>
       <button className={classes.Start}>Play Quiz!</button>
     </form>
   );
