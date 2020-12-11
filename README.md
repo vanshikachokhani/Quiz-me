@@ -1,6 +1,7 @@
 # QUIZ-APP
 A quiz app made with ReactJs using a quiz API.
 User can select the category of quiz and difficulty according to the user's requirements.
+The API will generate random questions based on selected category and difficulty.
 
 ## Getting started with the project
 - Clone the github repository with command
